@@ -1,59 +1,73 @@
 <template>
   <div id="app">
-    <!-- Hero Section -->
+    <!-- Section 1: Hero -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Creating Beautiful Memories</h1>
-        <p>Custom floral designs for life's most memorable moments</p>
+        <h1>Amanda & Jonathan</h1>
+        <p>Discover the moments that brought us together.</p>
       </div>
-      <img src="/love.jpg" alt="Love" class="hero-image" />
+      <img src="/love.jpg" alt="Hero" class="hero-image" />
     </section>
 
-    <!-- About Section -->
-    <section class="about">
-      <div class="about-content">
-        <h2>Wedding & Event Florals</h2>
+    <!-- Section 2: RSVP Info -->
+    <section class="rsvp-info">
+      <div class="info-content">
+        <h2>RSVP & Info</h2>
         <p>
-          Let us make your special day unforgettable with custom floral designs
-          that reflect your unique style.
+          Join us for our special day on June 8, 2024.
+          <br />
+          Venue: Park Hotel, Los Angeles
         </p>
+        <button class="rsvp-button">RSVP</button>
       </div>
-      <img src="/love.jpg" alt="About Us" />
+      <img src="/love.jpg" alt="RSVP Info" class="info-image" />
     </section>
 
-    <!-- Services Section -->
-    <section class="services">
-      <h2>Our Services</h2>
-      <div class="service-list">
-        <div class="service-card">
-          <img src="/love.jpg" alt="Service 1" />
-          <h3>Talk it Out</h3>
-          <p>Collaborate with us to create the perfect vision for your event.</p>
+    <!-- Section 3: Schedule -->
+    <section class="schedule">
+      <h2>Schedule</h2>
+      <div class="schedule-items">
+        <div class="schedule-item">
+          <img src="/love.jpg" alt="Wedding Ceremony" />
+          <h3>Wedding Ceremony</h3>
+          <p>5:00 PM</p>
         </div>
-        <div class="service-card">
-          <img src="/love.jpg" alt="Service 2" />
-          <h3>Dream it Up</h3>
-          <p>We’ll turn your vision into detailed plans and creative designs.</p>
+        <div class="schedule-item">
+          <img src="/love.jpg" alt="Appetizers & Drinks" />
+          <h3>Appetizers & Drinks</h3>
+          <p>6:00 PM</p>
         </div>
-        <div class="service-card">
-          <img src="/love.jpg" alt="Service 3" />
-          <h3>Bring it to Life</h3>
-          <p>On your special day, we’ll make sure everything looks amazing.</p>
+        <div class="schedule-item">
+          <img src="/love.jpg" alt="Dinner Service" />
+          <h3>Dinner Service</h3>
+          <p>7:00 PM</p>
+        </div>
+        <div class="schedule-item">
+          <img src="/love.jpg" alt="Dance Party" />
+          <h3>Dance Party</h3>
+          <p>8:00 PM - 12:30 AM</p>
         </div>
       </div>
     </section>
 
-    <!-- Meet the Owner Section -->
-    <section class="owner">
-      <h2>Meet Shelby Spillar</h2>
-      <p>Owner of Tupelo Event Floral Design</p>
-      <img src="/love.jpg" alt="Owner Image" />
+    <!-- Section 4: Photo Gallery -->
+    <section class="gallery">
+      <h2>Our Journey</h2>
+      <div class="gallery-items">
+        <img src="/love.jpg" alt="Gallery Image 1" />
+        <img src="/love.jpg" alt="Gallery Image 2" />
+        <img src="/love.jpg" alt="Gallery Image 3" />
+        <img src="/love.jpg" alt="Gallery Image 4" />
+        <img src="/love.jpg" alt="Gallery Image 5" />
+      </div>
     </section>
 
-    <!-- Call to Action -->
-    <section class="cta">
-      <h2>Plan Your Wedding with Us</h2>
-      <button>Contact Us</button>
+    <!-- Section 5: Story -->
+    <section class="story">
+      <h2>Our Story</h2>
+      <p>Discover our journey from chance encounter to true love.</p>
+      <img src="/love.jpg" alt="Our Story" />
+      <button class="story-button">Our Story</button>
     </section>
   </div>
 </template>
