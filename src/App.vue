@@ -3,8 +3,8 @@
     <!-- Section 1: Hero -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Amanda & Jonathan</h1>
-        <p>Discover the moments that brought us together.</p>
+        <h1>Auem & MooNoom</h1>
+        <p>We are getting married on November 9th 2025.</p>
       </div>
       <img src="/love.jpg" alt="Hero" class="hero-image" />
     </section>
